@@ -1,0 +1,175 @@
+body {
+    font-family: sans-serif;
+    background: #1F1D2B;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    align-items: center;
+}
+
+input {
+    background: #272636;
+    border: none;
+    outline: none;
+    width: 60%;
+    padding: 1px 14px;
+    margin: 2px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+button {
+    margin: 5px;
+}
+
+.input {
+    width: 100%;
+    background: #272636;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.input::after {
+    border: 2px solid yellow;
+}
+
+.input button {
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-size: 25px;
+    float: right;
+    padding: 0px 10px;
+}
+
+.options button {
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+}
+
+.options {
+    justify-content: space-between;
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+.oder li {
+    background: rgb(22, 18, 43);
+    color: #ffffff;
+    width: 100%;
+    font-size: 18px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 5px 14px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.oder :hover {
+    background: rgb(82, 15, 78);
+    transition: 0.5s;
+    transition-property: all;
+}
+
+.oder {
+    width: 100%;
+    max-width: 360px;
+    transition: 0.5s;
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+.oder h3 {
+    margin: 0;
+    padding: 0;
+    max-width: 80%;
+    overflow: hidden;
+}
+
+.oder input {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.delet {
+    background: none;
+    color: #cf1313;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.check {
+    background: none;
+    color: #cf1313;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.error-message {
+    padding: 0px;
+    padding-left: 20px;
+    margin: 5px;
+    color: red;
+}
+
+.status {
+    color: greenyellow;
+}
+
+.page {
+    /* max-width: 380px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 360px;
+}
+
+.todoform {
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.todoin {
+    width: 100%;
+}
+
+
+/* ftom aatho */
+
+
+/* 
+.input {
+    background: #272636;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input:hover {
+    border: 2px solid #6F6FC8;
+}
+
+.input:focus {
+    border: 2px solid #6F6FC8;
+} */
